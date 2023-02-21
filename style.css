@@ -1,0 +1,458 @@
+/* Código dos Banners */
+.banner1{
+    background-image: url('https://www.imagemhost.com.br/images/2023/02/21/MIKEX_background_design_for_website_about_womens_hair_in_orange_03e6e430-c274-48e1-b2e2-e3d3e64c6087.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 680px;
+}
+.banner2{
+    background-image: linear-gradient(to left, #00c7c7 , #FFA500);
+    position: absolute;
+    top: 680px;
+    left: 0%;
+    width: 100%;
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.banner3{
+    position: absolute;
+    top: 784px;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  clip-path: inset(0); /* recorta a imagem para dentro da div */
+}
+.banner4{
+    background-image: linear-gradient(to left, #00c7c7 , #FFA500);
+    position: absolute;
+    top: 1365px;
+    left: 0%;
+    width: 100%;
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: +1;
+}
+.banner5{
+    background-color: rgb(73, 0, 73);
+    position: absolute;
+    top: 1470px;
+    left: 0%;
+    width: 100%;
+    height: 570px;
+}
+.banner6{
+    background-color: rgb(63, 3, 63);
+    position: absolute;
+    top: 2040px;
+    left: 0%;
+    width: 100%;
+    height: 660px;
+}
+.banner7{
+    background-image: linear-gradient(to left, #FFA500, #00c7c7 );
+    position: absolute;
+    top: 2700px;
+    left: 0%;
+    width: 100%;
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner8{
+    background-color: rgb(0, 255, 0);
+    position: absolute;
+    top: 2805px;
+    left: 0%;
+    width: 100%;
+    height: 660px;
+}
+.banner9{
+    position: absolute;
+    top: 3465px;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  clip-path: inset(0); /* recorta a imagem para dentro da div */
+}
+.banner10{
+    background-color: rgb(0, 225, 255);
+    position: absolute;
+    top: 4125px;
+    left: 0%;
+    width: 100%;
+    height: 340px;
+}
+.banner11{
+    background-color: rgb(255, 145, 0);
+    background-image: url();
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: 4465px;
+    left: 0%;
+    width: 100%;
+    height: 660px;
+}
+.banner12{
+    background-color: rgb(204, 0, 255);
+    position: absolute;
+    top: 5125px;
+    left: 0%;
+    width: 100%;
+    height: 340px;
+}
+/* Cóigo da imagem retrativa */
+.imgRetrativa1{
+    background-image: url('https://www.imagemhost.com.br/images/2023/02/21/MIKEX_Please_create_a_4k_background_with_the_color_code_FFA500__49e3b042-6b2b-41bb-bf33-a0c959b326a1.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    
+    z-index: -1;
+}
+.imgRetrativa2{
+    background-image: url('https://www.imagemhost.com.br/images/2023/02/21/MIKEX_background_design_for_website_about_womens_hair_in_orange_8e706ba7-d911-41ca-abeb-2d283742926b.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* esconde o conteúdo que estiver fora da div */
+    z-index: +1;
+}
+/* Textos dos Banners */
+.titulo{
+    color: #fff;
+    position:relative;
+    top: 20px;
+}
+.textDepoimento{
+    color: #fff;
+    position: absolute;
+    top: 2095px;
+    left: 0%;
+    width: 100%;
+    height: 660px;
+    display: flex;
+    justify-content: center;
+    z-index: +1;
+
+
+}
+.textBonus{
+    position: absolute;
+    top: 3520px;
+    left: 0%;
+    width: 100%;
+    height: 660px;
+    display: flex;
+    justify-content: center;
+    z-index: +1;
+
+}
+/* Código Botão */
+.button {
+    background-image: linear-gradient(to bottom, #00c7c7 , #FFA500); /* cor de fundo */
+    position: relative;
+    bottom: 25px;
+    color: white; /* cor do texto */
+    padding: 15px 32px; /* espaço dentro do botão */
+    text-align: center; /* centralizar texto */
+    text-decoration: none; /* remover sublinhado */
+    display: inline-block; /* exibir como um bloco */
+    font-size: 16px; /* tamanho do texto */
+    margin: 4px 2px; /* margem externa */
+    cursor: pointer; /* mudar o cursor para a mão */
+    transition: all 0.3s ease-in-out; /* animação de transição */
+    border-radius: 25px; /*radius da borda*/
+    border-left: 2px #fff solid; /*borda lado esquerdo*/
+    border-right: 2px #fff solid; /*borda lado direito*/
+    border-bottom: 4px #fff solid; /*borda de baixo*/
+    border-top: 0px #fff solid; /*borda de cima*/
+    box-shadow: 0 0 10px #ffffff; /*sombra*/
+    font-weight: bolder;
+  }
+  
+  .button:hover {
+    transform: scale(1.1); /* aumentar o tamanho quando o cursor estiver sobre o botão */
+  }
+/*  Código do vídeo */
+.container{
+    max-width:800px;
+    margin:0 auto;
+    
+  }
+.video-container{
+    position:relative;
+    bottom: 10px;
+    padding-bottom:56.25%;
+    padding-top:0px;
+    height:0;
+    overflow:hidden;    
+  }
+/* Fonte */
+  body{
+    font-family:Arial,sans-serif
+  }
+/* Estilos para telas grandes */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2rem;
+  }
+  /* Estilos para telas pequenas */
+  @media (max-width: 600px) {
+    /* Código do botão */
+    .button {
+        background-image: linear-gradient(to bottom, #00c7c7 , #FFA500); /* cor de fundo */
+        position: relative;
+        top: 20px;
+        color: white; /* cor do texto */
+        padding: 15px 32px; /* espaço dentro do botão */
+        text-align: center; /* centralizar texto */
+        text-decoration: none; /* remover sublinhado */
+        display: inline-block; /* exibir como um bloco */
+        font-size: 16px; /* tamanho do texto */
+        margin: 4px 2px; /* margem externa */
+        cursor: pointer; /* mudar o cursor para a mão */
+        transition: all 0.3s ease-in-out; /* animação de transição */
+        border-radius: 25px; /*radius da borda*/
+        border-left: 2px #fff solid; /*borda lado esquerdo*/
+        border-right: 2px #fff solid; /*borda lado direito*/
+        border-bottom: 4px #fff solid; /*borda de baixo*/
+        border-top: 0px #fff solid; /*borda de cima*/
+        box-shadow: 0 0 10px #ffffff; /*sombra*/
+        font-weight: bolder;
+      }
+      
+    .button:hover {
+        transform: scale(1.1); /* aumentar o tamanho quando o cursor estiver sobre o botão */
+    }
+    /* Textos dos Banners */
+    .titulo{
+        position:relative;
+        top: 50px;
+        color: #fff;
+            
+    }
+    .textDepoimento{
+        color: #fff;
+        position: absolute;
+        top: 2054px;
+        left: 0%;
+        width: 100%;
+        height: 660px;
+        display: flex;
+        justify-content: center;
+        z-index: +1;
+    }
+    .textBonus{
+        position: absolute;
+        top: 3520px;
+        left: 0%;
+        width: 100%;
+        height: 660px;
+        display: flex;
+        justify-content: center;
+        z-index: +1;
+    }
+    /*  Código do vídeo */
+    .container{
+        max-width:800px;
+        margin:0 auto
+    }
+    .video-container{
+        position:relative;
+        top: 30px;
+        padding-bottom:56.25%;
+        padding-top:0px;
+        height:0;
+        overflow:hidden;
+    }
+    /* Código dos Banners */
+    .banner1{
+        background-image: url('https://www.imagemhost.com.br/images/2023/02/21/MIKEX_background_design_for_website_about_womens_hair_in_orange_03e6e430-c274-48e1-b2e2-e3d3e64c6087.png');
+        background-size: cover;
+        background-position: right center;
+        background-repeat: no-repeat;
+        text-align: center;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 510px;
+    }
+    .banner2{
+        background-image: linear-gradient(to left, #00c7c7 , #FFA500);
+        position: absolute;
+        top: 510px;
+        left: 0%;
+        width: 100%;
+        height: 105px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .banner3{
+    position: absolute;
+        top: 615px;
+        left: 0%;
+        width: 100%;
+        height: 580px;
+        object-fit: cover;
+        clip-path: inset(0); /* recorta a imagem para dentro da div */
+    }
+    .banner4{
+        background-image: linear-gradient(to left, #00c7c7 , #FFA500);
+        position: absolute;
+        top: 1194px;
+        left: 0%;
+        width: 100%;
+        height: 105px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner5{
+        background-color: rgb(73, 0, 73);
+        position: absolute;
+        top: 1299px;
+        left: 0%;
+        width: 100%;
+        height: 660px;
+    }
+    .banner6{
+        background-color: rgb(63, 3, 63);
+        position: absolute;
+        top: 1958px;
+        left: 0%;
+        width: 100%;
+        height: 660px;
+    }
+    .banner7{
+        background-image: linear-gradient(to left, #FFA500, #00c7c7 );
+        position: absolute;
+        top: 2617px;
+        left: 0%;
+        width: 100%;
+        height: 105px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner8{
+        background-color: rgb(255, 0, 0);
+        position: absolute;
+        top: 2722px;
+        left: 0%;
+        width: 100%;
+        height: 660px;
+    }
+    .banner9{
+        position: absolute;
+        top: 3381px;
+        left: 0%;
+        width: 100%;
+        height: 660px;
+        object-fit: cover;
+        clip-path: inset(0); /* recorta a imagem para dentro da div */
+    }
+    .banner10{
+        background-color: rgb(0, 225, 255);
+        position: absolute;
+        top: 4041px;
+        left: 0%;
+        width: 100%;
+        height: 340px;
+    }
+    .banner11{
+        background-color: rgb(255, 145, 0);
+        background-image: url();
+        background-size: cover;
+        background-position: center center;
+        position: absolute;
+        top: 4381px;
+        left: 0%;
+        width: 100%;
+        height: 660px;
+    }
+    .banner12{
+        background-color: rgb(204, 0, 255);
+        position: absolute;
+        top: 5041px;
+        left: 0%;
+        width: 100%;
+        height: 340px;
+    }
+    /* Cóigo da imagem retrativa */
+        .imgRetrativa1{
+            background-image: url('https://www.imagemhost.com.br/images/2023/02/21/MIKEX_Please_create_a_4k_background_with_the_color_code_FFA500__49e3b042-6b2b-41bb-bf33-a0c959b326a1.png');
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            position: fixed;
+            top: 0%;
+            left: 0%;
+            max-width: 100%;
+            width: 100%;
+            height: 100%;
+            
+            z-index: -1;
+        }
+        .imgRetrativa2{
+            background-image: url('https://www.imagemhost.com.br/images/2023/02/21/MIKEX_background_design_for_website_about_womens_hair_in_orange_8e706ba7-d911-41ca-abeb-2d283742926b.png');
+            background-size: cover;
+            background-position: right center;
+            background-repeat: no-repeat;
+            position: fixed;
+            top: 0%;
+            left: 0%;
+            max-width: 100%;
+            width: 100%;
+            height: 100%;
+            overflow: hidden; /* esconde o conteúdo que estiver fora da div */
+            z-index: +1;
+        }
+    header {
+      flex-direction: column;
+      align-items: center;
+    }
+    main {
+      margin: 1rem;
+    }
+  }
+  
