@@ -1,6 +1,6 @@
 /* Código dos Banners */
 .banner1{
-    background-image: url('https://www.imagemhost.com.br/images/2023/02/21/MIKEX_background_design_for_website_about_womens_hair_in_orange_03e6e430-c274-48e1-b2e2-e3d3e64c6087.png');
+    background-image: url('file:///C:/Users/Pedro/Downloads/Frame%201Banner01.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@
     height: 680px;
 }
 .banner2{
-    background-image: linear-gradient(to left, #00c7c7 , #FFA500);
+    background-image: linear-gradient(to bottom left,#00b4b4 ,#ff4400);
     position: absolute;
     top: 680px;
     left: 0%;
@@ -145,6 +145,12 @@
     z-index: +1;
 }
 /* Textos dos Banners */
+.tituloBanners{
+    color: #fff;
+    font-weight: lighter bold;
+    text-transform: uppercase;
+    
+}
 .titulo{
     color: #fff;
     position:relative;
@@ -176,7 +182,7 @@
 }
 /* Código Botão */
 .button {
-    background-image: linear-gradient(to bottom, #00c7c7 , #FFA500); /* cor de fundo */
+    background-image: linear-gradient(to bottom, #00c7c7 , #FF4500); /* cor de fundo */
     position: relative;
     bottom: 25px;
     color: white; /* cor do texto */
@@ -237,7 +243,7 @@ header {
   @media (max-width: 600px) {
     /* Código do botão */
     .button {
-        background-image: linear-gradient(to bottom, #00c7c7 , #FFA500); /* cor de fundo */
+        background-image: linear-gradient(to bottom, #00c7c7 , #FF4500); /* cor de fundo */
         position: relative;
         top: 20px;
         color: white; /* cor do texto */
@@ -271,7 +277,7 @@ header {
     .textDepoimento{
         color: #fff;
         position: absolute;
-        top: 2054px;
+        top: 2038px;
         left: 0%;
         width: 100%;
         height: 660px;
@@ -281,7 +287,7 @@ header {
     }
     .textBonus{
         position: absolute;
-        top: 3520px;
+        top: 3461px;
         left: 0%;
         width: 100%;
         height: 660px;
@@ -304,9 +310,9 @@ header {
     }
     /* Código dos Banners */
     .banner1{
-        background-image: url('https://www.imagemhost.com.br/images/2023/02/21/MIKEX_background_design_for_website_about_womens_hair_in_orange_03e6e430-c274-48e1-b2e2-e3d3e64c6087.png');
+        background-image: url('file:///C:/Users/Pedro/Downloads/Frame%201Banner01.png');
         background-size: cover;
-        background-position: right center;
+        background-position: left center;
         background-repeat: no-repeat;
         text-align: center;
         position: absolute;
@@ -316,7 +322,7 @@ header {
         height: 510px;
     }
     .banner2{
-        background-image: linear-gradient(to left, #00c7c7 , #FFA500);
+        background-image: linear-gradient(to bottom left,#00b4b4 ,#ff4400);
         position: absolute;
         top: 510px;
         left: 0%;
@@ -328,7 +334,7 @@ header {
 
     }
     .banner3{
-    position: absolute;
+        position: absolute;
         top: 615px;
         left: 0%;
         width: 100%;
@@ -428,10 +434,10 @@ header {
             top: 0%;
             left: 0%;
             max-width: 100%;
-            width: 100%;
+            width: 101%;
             height: 100%;
-            
             z-index: -1;
+            pointer-events: none;
         }
         .imgRetrativa2{
             background-image: url('https://www.imagemhost.com.br/images/2023/02/21/MIKEX_background_design_for_website_about_womens_hair_in_orange_8e706ba7-d911-41ca-abeb-2d283742926b.png');
@@ -446,6 +452,8 @@ header {
             height: 100%;
             overflow: hidden; /* esconde o conteúdo que estiver fora da div */
             z-index: +1;
+            pointer-events: none;
+
         }
     header {
       flex-direction: column;
