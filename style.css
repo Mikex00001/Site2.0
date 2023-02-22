@@ -12,7 +12,7 @@
     height: 680px;
 }
 .banner2{
-    background-image: linear-gradient(to bottom left,#00b4b4 ,#ff4400);
+    background-image: linear-gradient(to top,#00F0FF ,#FF0000);
     position: absolute;
     top: 680px;
     left: 0%;
@@ -30,10 +30,11 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    z-index: -1;
   clip-path: inset(0); /* recorta a imagem para dentro da div */
 }
 .banner4{
-    background-image: linear-gradient(to left, #00c7c7 , #FFA500);
+    background-image: linear-gradient(to left bottom,#00F0FF ,#FF0000);
     position: absolute;
     top: 1365px;
     left: 0%;
@@ -42,7 +43,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: +1;
 }
 .banner5{
     background-color: rgb(73, 0, 73);
@@ -61,7 +61,7 @@
     height: 660px;
 }
 .banner7{
-    background-image: linear-gradient(to left, #FFA500, #00c7c7 );
+    background-image: linear-gradient(to right bottom,#00F0FF ,#FF0000);
     position: absolute;
     top: 2700px;
     left: 0%;
@@ -89,7 +89,7 @@
   clip-path: inset(0); /* recorta a imagem para dentro da div */
 }
 .banner10{
-    background-color: rgb(0, 225, 255);
+    background-color: rgb(255, 255, 255);
     position: absolute;
     top: 4125px;
     left: 0%;
@@ -149,6 +149,7 @@
     color: #fff;
     font-weight: lighter bold;
     text-transform: uppercase;
+    text-shadow: 0 1px 10px #0000008c;
     
 }
 .titulo{
@@ -182,7 +183,7 @@
 }
 /* Código Botão */
 .button {
-    background-image: linear-gradient(to bottom, #00c7c7 , #FF4500); /* cor de fundo */
+    background-image: linear-gradient(to top,#00F0FF ,#FF0000); /* cor de fundo */
     position: relative;
     bottom: 25px;
     color: white; /* cor do texto */
@@ -243,7 +244,7 @@ header {
   @media (max-width: 600px) {
     /* Código do botão */
     .button {
-        background-image: linear-gradient(to bottom, #00c7c7 , #FF4500); /* cor de fundo */
+        background-image: linear-gradient(to top,#00F0FF ,#FF0000); /* cor de fundo */
         position: relative;
         top: 20px;
         color: white; /* cor do texto */
@@ -277,7 +278,7 @@ header {
     .textDepoimento{
         color: #fff;
         position: absolute;
-        top: 2038px;
+        top: 2013px;
         left: 0%;
         width: 100%;
         height: 660px;
@@ -286,14 +287,18 @@ header {
         z-index: +1;
     }
     .textBonus{
+        color: #fff;
         position: absolute;
-        top: 3461px;
+        top: 3438px;
         left: 0%;
         width: 100%;
         height: 660px;
         display: flex;
         justify-content: center;
         z-index: +1;
+        font-weight: lighter bold;
+        text-transform: uppercase;
+        text-shadow: 0 1px 10px #0000008c;
     }
     /*  Código do vídeo */
     .container{
@@ -310,7 +315,7 @@ header {
     }
     /* Código dos Banners */
     .banner1{
-        background-image: url('https://www.imagemhost.com.br/images/2023/02/21/Frame-1Banner01.png');
+        background-image: url('file:///C:/Users/Pedro/Downloads/Frame%201Banner01.png');
         background-size: cover;
         background-position: left center;
         background-repeat: no-repeat;
@@ -322,9 +327,9 @@ header {
         height: 510px;
     }
     .banner2{
-        background-image: linear-gradient(to bottom left,#00b4b4 ,#ff4400);
+        background-image: linear-gradient(to top,#00F0FF ,#FF0000);
         position: absolute;
-        top: 510px;
+        top: 509px;
         left: 0%;
         width: 100%;
         height: 105px;
@@ -335,7 +340,7 @@ header {
     }
     .banner3{
         position: absolute;
-        top: 615px;
+        top: 612px;
         left: 0%;
         width: 100%;
         height: 580px;
@@ -343,9 +348,9 @@ header {
         clip-path: inset(0); /* recorta a imagem para dentro da div */
     }
     .banner4{
-        background-image: linear-gradient(to left, #00c7c7 , #FFA500);
+        background-image: linear-gradient(to left bottom,#00F0FF ,#FF0000);
         position: absolute;
-        top: 1194px;
+        top: 1190px;
         left: 0%;
         width: 100%;
         height: 105px;
@@ -356,7 +361,7 @@ header {
     .banner5{
         background-color: rgb(73, 0, 73);
         position: absolute;
-        top: 1299px;
+        top: 1294px;
         left: 0%;
         width: 100%;
         height: 660px;
@@ -364,15 +369,15 @@ header {
     .banner6{
         background-color: rgb(63, 3, 63);
         position: absolute;
-        top: 1958px;
+        top: 1953px;
         left: 0%;
         width: 100%;
-        height: 660px;
+        height: 661px;
     }
     .banner7{
-        background-image: linear-gradient(to left, #FFA500, #00c7c7 );
+        background-image: linear-gradient(to right bottom,#00F0FF ,#FF0000);
         position: absolute;
-        top: 2617px;
+        top: 2613px;
         left: 0%;
         width: 100%;
         height: 105px;
@@ -381,16 +386,16 @@ header {
         align-items: center;
     }
     .banner8{
-        background-color: rgb(255, 0, 0);
+        background-color: rgb(255, 255, 255);
         position: absolute;
-        top: 2722px;
+        top: 2718px;
         left: 0%;
         width: 100%;
-        height: 660px;
+        height: 661px;
     }
     .banner9{
         position: absolute;
-        top: 3381px;
+        top: 3378px;
         left: 0%;
         width: 100%;
         height: 660px;
@@ -398,28 +403,28 @@ header {
         clip-path: inset(0); /* recorta a imagem para dentro da div */
     }
     .banner10{
-        background-color: rgb(0, 225, 255);
+        background-color: rgb(255, 0, 0);
         position: absolute;
-        top: 4041px;
+        top: 4037px;
         left: 0%;
         width: 100%;
         height: 340px;
     }
     .banner11{
-        background-color: rgb(255, 145, 0);
+        background-color: rgb(255, 0, 242);
         background-image: url();
         background-size: cover;
         background-position: center center;
         position: absolute;
-        top: 4381px;
+        top: 4376px;
         left: 0%;
         width: 100%;
         height: 660px;
     }
     .banner12{
-        background-color: rgb(204, 0, 255);
+        background-color: rgb(4, 0, 255);
         position: absolute;
-        top: 5041px;
+        top: 5035px;
         left: 0%;
         width: 100%;
         height: 340px;
