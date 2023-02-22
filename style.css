@@ -1,6 +1,6 @@
 /* Código dos Banners */
 .banner1{
-    background-image: url('file:///C:/Users/Pedro/Downloads/Frame%201Banner01.png');
+    background-image: url('https://www.imagemhost.com.br/images/2023/02/22/Frame-1Banner01.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -315,7 +315,7 @@ header {
     }
     /* Código dos Banners */
     .banner1{
-        background-image: url('file:///C:/Users/Pedro/Downloads/Frame%201Banner01.png');
+        background-image: url('https://www.imagemhost.com.br/images/2023/02/22/Frame-1Banner01.png');
         background-size: cover;
         background-position: left center;
         background-repeat: no-repeat;
