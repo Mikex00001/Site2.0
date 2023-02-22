@@ -1,6 +1,6 @@
 /* Código dos Banners */
 .banner1{
-    background-image: url('https://www.imagemhost.com.br/images/2023/02/22/Frame-1Banner01.png');
+    background-image: url('https://www.imagemhost.com.br/images/2023/02/22/Frame-1Banner0118e3f063bbb300d3.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@
     height: 680px;
 }
 .banner2{
-    background-image: linear-gradient(to top,#00F0FF ,#FF0000);
+    background-image: linear-gradient(to top,#00eeffe1 ,#FF0000);
     position: absolute;
     top: 680px;
     left: 0%;
@@ -117,7 +117,7 @@
 }
 /* Cóigo da imagem retrativa */
 .imgRetrativa1{
-    background-image: url('file:///C:/Users/Pedro/Downloads/bannertest02.png');
+    background-image: url('https://www.imagemhost.com.br/images/2023/02/22/bannertest02.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -131,7 +131,7 @@
     z-index: -1;
 }
 .imgRetrativa2{
-    background-image: url('file:///C:/Users/Pedro/Downloads/banner%20test%204.png');
+    background-image: url('https://www.imagemhost.com.br/images/2023/02/22/banner-test-4.png');
     background-size: cover;
     background-position: left 90% center;
     background-repeat: no-repeat;
