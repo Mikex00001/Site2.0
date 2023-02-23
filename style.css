@@ -325,7 +325,7 @@ header {
     margin: 2rem;
   }
   /* Estilos para telas pequenas */
-  @media (max-width: 480px) {
+  @media (max-width: 600px) {
     /* Código do botão */
     .button {
         background-image: linear-gradient(to top,#00F0FF ,#FF0000); /* cor de fundo */
@@ -425,11 +425,19 @@ header {
     .arrow {
         transition: transform 0.3s ease-in-out;
         color: #ff0000;
-        position: relative;
+        position: absolute;
         left: 0px;
         top: 0px;
         transform: rotate(-90deg);
     }
+    
+.arrow-down {
+    transform: rotate(-90deg);
+}
+
+.arrow-up {
+    transform: rotate(-180deg);
+}
     /* Definindo o estilo da tabela e do conteúdo oculto */
 .tablePerguntas {
     position: relative;
