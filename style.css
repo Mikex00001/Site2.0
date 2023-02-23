@@ -577,8 +577,6 @@ header {
 }
     /* Cóigo da imagem retrativa */
         .imgRetrativa1{
-            background-image: url('https://www.imagemhost.com.br/images/2023/02/22/bannertest02.png');
-            background-size: cover;
             background-position: left 10% center;
             background-repeat: no-repeat;
             position: fixed;
@@ -591,8 +589,6 @@ header {
             pointer-events: none;
         }
         .imgRetrativa2{
-            background-image: url('https://www.imagemhost.com.br/images/2023/02/22/Frame-4Banner01.png');
-            background-size: cover;
             background-position: right 20% center;
             background-repeat: no-repeat;
             position: fixed;
