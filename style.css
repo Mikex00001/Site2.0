@@ -45,7 +45,7 @@
     align-items: center;
 }
 .banner5{
-    background-color: rgb(73, 0, 73);
+    background-color: rgb(0, 0, 0);
     position: absolute;
     top: 1470px;
     left: 0%;
@@ -53,7 +53,10 @@
     height: 570px;
 }
 .banner6{
-    background-color: rgb(63, 3, 63);
+    background-image: url('https://www.imagemhost.com.br/images/2023/02/22/banner06.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     position: absolute;
     top: 2040px;
     left: 0%;
@@ -97,10 +100,6 @@
     height: 340px;
 }
 .banner11{
-    background-color: rgb(255, 145, 0);
-    background-image: url();
-    background-size: cover;
-    background-position: center center;
     position: absolute;
     top: 4465px;
     left: 0%;
@@ -109,15 +108,15 @@
 }
 .banner12{
     background-color: rgb(204, 0, 255);
-    position: absolute;
-    top: 5125px;
+    position: relative;
+    top: 90px;
     left: 0%;
     width: 100%;
     height: 340px;
 }
 /* Cóigo da imagem retrativa */
 .imgRetrativa1{
-    background-image: url('https://www.imagemhost.com.br/images/2023/02/22/bannertest02.png');
+    background-image: url('https://www.imagemhost.com.br/images/2023/02/22/Frame-3Banner01.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -131,7 +130,7 @@
     z-index: -1;
 }
 .imgRetrativa2{
-    background-image: url('https://www.imagemhost.com.br/images/2023/02/22/banner-test-4.png');
+    background-image: url('https://www.imagemhost.com.br/images/2023/02/22/Frame-4Banner01.png');
     background-size: cover;
     background-position: left 90% center;
     background-repeat: no-repeat;
@@ -242,15 +241,67 @@ ul li {
     font-weight: 50;
     text-shadow: 0 1px 4px #000000;
   }
-/* localizacao do smartmocup */
+/* Tabela de descrição*/
 table{
     width: 1015px;
-    
 }
 .td{
     
     width: 350px;
     height: 570px;
+}
+
+/* Definindo o estilo da tabela e do conteúdo oculto */
+.tablePerguntas {
+    border-collapse: collapse;
+    position: relative;
+    top: 0px;
+    font-weight: 5; 
+    color: white;
+    
+}
+.divTabela{
+    position: absolute;
+    bottom: 50px;
+    left: 0%;
+    height:100%;
+    width: 100%;
+    
+}
+
+.tablePerguntas td, table th {
+    
+    text-align: left;
+    position: relative;
+    
+}
+
+.hidden-content {
+    display: none;
+    transition: display 0.3s ease-out;
+}
+
+/* Adicionando estilo de hover para a célula clicável */
+.expandable {
+    cursor: pointer;
+}
+
+/* Adicionando estilo da seta */
+.arrow {
+    transition: transform 0.3s ease-in-out;
+    color: #ff0000;
+    position: relative;
+    left: 0px;
+    top: 39px;
+    transform: rotate(-90deg);
+}
+
+.arrow-down {
+    transform: rotate(-90deg);
+}
+
+.arrow-up {
+    transform: rotate(-180deg);
 }
 /* Fonte */
   body{
@@ -337,13 +388,14 @@ header {
     height: 200px;
     z-index: +1;
 }
+
     /* localizacao do smartmocup */
     table{
-       
         position: relative;
         top: 10px;
         left: 1%;
-        width: 90%; 
+        width: 90%;
+        z-index: +2; 
         
     }
     td{
@@ -351,7 +403,7 @@ header {
         display: block;
         margin-bottom: 10px;
         margin-top: 15px;
-        height: 337px;
+        height: 10px;
     
     }
     .td{
@@ -359,6 +411,21 @@ header {
         width: 100%;
         height: 200px;
     }
+    .nomeloctabela{
+        margin-left: 5%; 
+        color: white; 
+        font-weight: lighter;
+        position: relative;
+    }
+    /* Definindo o estilo da tabela e do conteúdo oculto */
+.tablePerguntas {
+    border-collapse: collapse;
+    position: relative;
+    top: 100px;
+    font-weight: 5; 
+    color: white;
+    
+}
     /*  Código do vídeo */
     .container{
         max-width:800px;
@@ -410,7 +477,7 @@ header {
 .banner4{
     background-image: linear-gradient(to left bottom,#00F0FF ,#FF0000);
     position: absolute;
-    top: 1364px;
+    top: 1370px;
     left: 0%;
     width: 100%;
     height: 105px;
@@ -419,15 +486,18 @@ header {
     align-items: center;
 }
 .banner5{
-    background-color: rgb(73, 0, 73);
+    background-color: rgb(0, 0, 0);
     position: absolute;
-    top: 1468px;
+    top: 1475px;
     left: 0%;
     width: 100%;
     height: 570px;
 }
 .banner6{
-    background-color: rgb(63, 3, 63);
+    background-image: url('https://www.imagemhost.com.br/images/2023/02/22/banner06.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     position: absolute;
     top: 2037px;
     left: 0%;
@@ -435,7 +505,7 @@ header {
     height: 660px;
 }
 .banner7{
-    background-image: linear-gradient(to right bottom,#00F0FF ,#FF0000);
+    background-image: linear-gradient(to left bottom,#00F0FF ,#FF0000);
     position: absolute;
     top: 2696px;
     left: 0%;
@@ -446,7 +516,7 @@ header {
     align-items: center;
 }
 .banner8{
-    background-color: rgb(0, 255, 13);
+    background-color: rgb(0, 0, 0);
     position: absolute;
     top: 2800px;
     left: 0%;
@@ -463,7 +533,7 @@ header {
   clip-path: inset(0); /* recorta a imagem para dentro da div */
 }
 .banner10{
-    background-color: rgb(81, 255, 0);
+    background-color: rgb(255, 255, 255);
     position: absolute;
     top: 4123px;
     left: 0%;
@@ -471,10 +541,10 @@ header {
     height: 340px;
 }
 .banner11{
-    background-color: rgb(255, 145, 0);
-    background-image: url();
+    background-image: url('https://www.imagemhost.com.br/images/2023/02/22/Frame-7Banner01.png');
     background-size: cover;
     background-position: center center;
+    background-repeat: no-repeat;
     position: absolute;
     top: 4462px;
     left: 0%;
