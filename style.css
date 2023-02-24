@@ -516,10 +516,6 @@ header {
     height: 570px;
 }
 .banner6{
-    background-image: url('https://www.imagemhost.com.br/images/2023/02/22/banner06.png');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
     position: absolute;
     top: 2037px;
     left: 0%;
@@ -546,11 +542,6 @@ header {
     height: 660px;
 }
 .banner9{
-    background-image: url('https://www.imagemhost.com.br/images/2023/02/22/Frame-1Banner01.png');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    text-align: center;
     position: absolute;
     top: 3459px;
     left: 0%;
