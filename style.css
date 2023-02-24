@@ -1,10 +1,9 @@
-/* Largura máxima de 1000px para telas pequenas */
-@media screen and (max-width: 1000px) {
+
     .banner1{
-        background-image: url('https://www.imagemhost.com.br/images/2023/02/22/Frame-1Banner0118e3f063bbb300d3.png');
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
+        background-image: url('https://www.imagemhost.com.br/images/2023/02/24/certo001.png');
+        background-size: 1.0;
+        background-position: bottom center;
+        background-repeat: repeat-x;
         text-align: center;
         position: absolute;
         top: 0%;
@@ -31,7 +30,6 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-        z-index: -1;
       clip-path: inset(0); /* recorta a imagem para dentro da div */
     }
     .banner4{
@@ -42,7 +40,7 @@
         width: 100%;
         height: 105px;
         display: flex;
-        z-index: +1;
+        z-index: 1;
         justify-content: center;
         align-items: center;
     }
@@ -55,10 +53,10 @@
         height: 570px;
     }
     .banner6{
-        background-image: url('https://www.imagemhost.com.br/images/2023/02/22/banner06.png');
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
+        background-image: url('file:///C:/Users/Pedro/Downloads/agoraacertei.png');
+        background-size: 1.0;
+        background-position: top center;
+        background-repeat: repeat-x;
         position: absolute;
         top: 2040px;
         left: 0%;
@@ -102,6 +100,7 @@
         height: 340px;
     }
     .banner11{
+        background-color: #000000;
         position: absolute;
         top: 4465px;
         left: 0%;
@@ -109,7 +108,10 @@
         height: 900px;
     }
     .banner12{
-        background-color: rgb(204, 0, 255);
+        background-image: url('file:///C:/Users/Pedro/Downloads/Frame%2010Banner01.png');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
         position: relative;
         top: 90px;
         left: 0%;
@@ -128,8 +130,7 @@
         max-width: 100%;
         width: 100%;
         height: 100%;
-        
-        z-index: -1;
+        z-index: 0;
     }
     .imgRetrativa2{
         background-image: url('https://www.imagemhost.com.br/images/2023/02/22/Frame-4Banner01.png');
@@ -145,7 +146,13 @@
         overflow: hidden; /* esconde o conteúdo que estiver fora da div */
         z-index: +1;
     }
+   
     /* Textos dos Banners */
+    .titulo{
+        color: #fff;
+        position:relative;
+        top: 20px;
+    }
     .tituloBanners{
         color: #fff;
         font-weight: lighter bold;
@@ -153,11 +160,7 @@
         text-shadow: 0 1px 10px #0000008c;
         
     }
-    .titulo{
-        color: #fff;
-        position:relative;
-        top: 20px;
-    }
+    
     .textDepoimento{
         color: #fff;
         position: absolute;
@@ -187,11 +190,34 @@
     
     }
     /* Código Botão */
-    .button {
+    .button1 {
+        background-image: linear-gradient(to top,#00F0FF ,#FF0000); /* cor de fundo */
+        color: white; /* cor do texto */
+        padding: 15px 32px; /* espaço dentro do botão */
+        text-align: center; /* centralizar texto */
+        text-decoration: none; /* remover sublinhado */
+        display: inline-block; /* exibir como um bloco */
+        font-size: 16px; /* tamanho do texto */
+        margin: 4px 2px; /* margem externa */
+        cursor: pointer; /* mudar o cursor para a mão */
+        transition: all 0.3s ease-in-out; /* animação de transição */
+        border-radius: 25px; /*radius da borda*/
+        border-left: 2px #fff solid; /*borda lado esquerdo*/
+        border-right: 2px #fff solid; /*borda lado direito*/
+        border-bottom: 4px #fff solid; /*borda de baixo*/
+        border-top: 0px #fff solid; /*borda de cima*/
+        box-shadow: 0 0 10px #ffffff; /*sombra*/
+        font-weight: bolder;
+        z-index: 1;
+      }
+      
+    .button1 :hover {
+        transform: scale(1.1); /* aumentar o tamanho quando o cursor estiver sobre o botão */
+      }
+      .button2 {
         background-image: linear-gradient(to top,#00F0FF ,#FF0000); /* cor de fundo */
         position: relative;
-        top: 0px;
-        bottom: 25px;
+        top: 2680px;
         color: white; /* cor do texto */
         padding: 15px 32px; /* espaço dentro do botão */
         text-align: center; /* centralizar texto */
@@ -210,7 +236,7 @@
         font-weight: bolder;
       }
       
-      .button:hover {
+    .button2 :hover {
         transform: scale(1.1); /* aumentar o tamanho quando o cursor estiver sobre o botão */
       }
     /*  Código do vídeo */
@@ -236,6 +262,7 @@
     .smartmocup1:hover{
        transform: scale(1.1);
     }
+    
     /* Topicos */
     ul li {
         font-weight: lighter;
@@ -243,37 +270,43 @@
         font-weight: 50;
         text-shadow: 0 1px 4px #000000;
       }
-    /* Tabela de descrição*/
-    table{
+    /* Tabela da descrição*/
+    .tableDesc{
+        height: 580px;
         width: 1015px;
+
     }
-    .td{
-        
-        width: 350px;
-        height: 570px;
+    #tdDescr{
+        width:500px;
     }
-    
-    /* Definindo o estilo da tabela e do conteúdo oculto */
+    .imgBonus{
+        position: relative;
+        top: 2830px;
+        width: 670px;
+        height: 670px;
+        z-index: +2;
+    }
+    /* Tabela de perguntas */
     .tablePerguntas {
+        width: 660px;
         border-collapse: collapse;
         position: relative;
         top: 25px;
         font-weight: 5; 
-        color: white;
-        
-        
-    }
-    .divTabela{
-        position: absolute;
-        bottom: 50px;
-        left: 0%;
-        height:100%;
-        width: 100%;
-        
+        color: white;  
     }
     
-    .tablePerguntas td, table th {
-        
+      
+    .separarNomeDaSeta{
+        margin-left: 3%; 
+        color: white; 
+        font-weight: lighter;
+    }
+    #td{
+        border-bottom: 2px solid rgb(255, 255, 255);
+    }
+    
+    .tablePerguntas{
         text-align: left;
         position: relative;
         
@@ -283,8 +316,6 @@
         display: none;
         transition: display 0.3s ease-out;
     }
-    
-    /* Adicionando estilo de hover para a célula clicável */
     .expandable {
         cursor: pointer;
     }
@@ -306,8 +337,6 @@
     .arrow-up {
         transform: rotate(-180deg);
     }
-  }
-/* Código dos Banners */
 
 /* Fonte */
   body{
@@ -318,6 +347,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #333;
     color: #fff;
     padding: 1rem;
   }
@@ -327,285 +357,5 @@ header {
     justify-content: space-between;
     margin: 2rem;
   }
-  /* Estilos para telas de cell pequenas */
-  @media (max-width: 480px) and (orientation: landscape){
-    /* Código do botão */
-    .button {
-        background-image: linear-gradient(to top,#00F0FF ,#FF0000); /* cor de fundo */
-        position: relative;
-        top: 45px;
-        color: white; /* cor do texto */
-        padding: 15px 32px; /* espaço dentro do botão */
-        text-align: center; /* centralizar texto */
-        text-decoration: none; /* remover sublinhado */
-        display: inline-block; /* exibir como um bloco */
-        font-size: 16px; /* tamanho do texto */
-        margin: 4px 2px; /* margem externa */
-        cursor: pointer; /* mudar o cursor para a mão */
-        transition: all 0.3s ease-in-out; /* animação de transição */
-        border-radius: 25px; /*radius da borda*/
-        border-left: 2px #fff solid; /*borda lado esquerdo*/
-        border-right: 2px #fff solid; /*borda lado direito*/
-        border-bottom: 4px #fff solid; /*borda de baixo*/
-        border-top: 0px #fff solid; /*borda de cima*/
-        box-shadow: 0 0 10px #ffffff; /*sombra*/
-        font-weight: bolder;
-      }
-      
-    .button:hover {
-        transform: scale(1.1); /* aumentar o tamanho quando o cursor estiver sobre o botão */
-    }
-    /* Textos dos Banners */
-    .titulo{
-        position:relative;
-        top: 50px;
-        color: #fff;
-            
-    }
-    .textDepoimento{
-        color: #fff;
-        position: absolute;
-        top: 2013px;
-        left: 0%;
-        width: 100%;
-        height: 660px;
-        display: flex;
-        justify-content: center;
-    }
-    .textBonus{
-        position: relative;
-        top: 2950px;
-        left: 0%;
-        width: 100%;
-        height: 660px;
-        display: flex;
-        justify-content: center;
-        font-weight: lighter bold;
-        text-transform: uppercase;
-        text-shadow: 0 1px 10px #0000008c;
-    }
-    /* Imagem smartmocups */
-  .smartmocup1{
-    margin-left: 20%;
-    width: 200px;
-    height: 200px;
-}
 
-    /* localizacao do smartmocup */
-    table{
-        position: relative;
-        top: 10px;
-        left: 1%;
-        width: 90%;
-        
-    }
-    td{
-        font-weight: 10px;
-        display: flex;
-        margin-bottom: 10px;
-        margin-top: 15px;
-     
-    
-    }
-    .td{
-        
-        width: 100%;
-        height: 200px;
-    }
-    #td{
-        width: 100%;
-        height: 5%;
-    }
-    #table{
-        height: 10px;
-    }
-    .nomeloctabela{
-
-        color: white; 
-        font-weight: lighter;
-        position: relative;
-    }
-    .arrow {
-        transition: transform 0.3s ease-in-out;
-        color: #ff0000;
-        position: absolute;
-        left: 0px;
-        top: 0px;
-        transform: rotate(-90deg);
-    }
-    
-.arrow-down {
-    transform: rotate(-90deg);
-}
-
-.arrow-up {
-    transform: rotate(-180deg);
-}
-    /* Definindo o estilo da tabela e do conteúdo oculto */
-.tablePerguntas {
-    position: relative;
-    left: 2%;
-    border-collapse: collapse;
-    width: 80%;
-    top: 70px;
-    color: white;
-    
-}
-    /*  Código do vídeo */
-    .container{
-        max-width:800px;
-        margin:0 auto
-    }
-    .video-container{
-        position:relative;
-        top: 30px;
-        padding-bottom:56.25%;
-        padding-top:0px;
-        height:0;
-        overflow:hidden;
-    }
-    /* Código dos Banners */
-.banner1{
-    text-align: center;
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 680px;
-}
-.banner2{
-    background-image: linear-gradient(to top,#00F0FF ,#FF0000);
-    position: absolute;
-    top: 679px;
-    left: 0%;
-    width: 100%;
-    height: 105px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-.banner3{
-    position: absolute;
-    top: 783px;
-    left: 0%;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-  clip-path: inset(0); /* recorta a imagem para dentro da div */
-}
-.banner4{
-   
-    position: relative;
-    top: 910px;
-    left: 0%;
-    width: 100%;
-    height: 105px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.banner5{
-    background-color: rgb(0, 0, 0);
-    position: absolute;
-    top: 1475px;
-    left: 0%;
-    width: 100%;
-    height: 570px;
-}
-.banner6{
-    position: absolute;
-    top: 2037px;
-    left: 0%;
-    width: 100%;
-    height: 660px;
-}
-.banner7{
-    background-image: linear-gradient(to left bottom,#00F0FF ,#FF0000);
-    position: absolute;
-    top: 2696px;
-    left: 0%;
-    width: 100%;
-    height: 105px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.banner8{
-    background-color: rgb(0, 0, 0);
-    position: absolute;
-    top: 2800px;
-    left: 0%;
-    width: 100%;
-    height: 660px;
-}
-.banner9{
-    position: absolute;
-    top: 3459px;
-    left: 0%;
-    width: 100%;
-    height: 100%;
-    
-}
-.banner10{
-    background-color: rgb(255, 255, 255);
-    position: absolute;
-    top: 4123px;
-    left: 0%;
-    width: 100%;
-    height: 340px;
-}
-.banner11{
-    background-color: #000000;
-    position: absolute;
-    top: 4462px;
-    left: 0%;
-    width: 100%;
-    height: 900px;
-}
-.banner12{
-    
-    position: relative;
-    top: 120px;
-    width: 100%;
-    height: 340px;
-}
-    /* Cóigo da imagem retrativa */
-        .imgRetrativa1{
-            background-position: left 10% center;
-            background-repeat: no-repeat;
-            position: fixed;
-            top: 0%;
-            left: 0%;
-            max-width: 100%;
-            width: 101%;
-            height: 100%;
-            z-index: -1;
-            pointer-events: none;
-        }
-        .imgRetrativa2{
-            background-position: right 20% center;
-            background-repeat: no-repeat;
-            position: fixed;
-            top: 0%;
-            left: 0%;
-            max-width: 100%;
-            width: 100%;
-            height: 100%;
-            overflow: hidden; /* esconde o conteúdo que estiver fora da div */
-            z-index: +1;
-            pointer-events: none;
-
-        }
-    header {
-      flex-direction: column;
-      align-items: center;
-    }
-    main {
-      margin: 1rem;
-    }
-  }
-  
-  
   
