@@ -328,7 +328,7 @@ header {
     margin: 2rem;
   }
   /* Estilos para telas de cell pequenas */
-  @media (max-width: 480px) {
+  @media (max-width: 480px) and (orientation: landscape){
     /* Código do botão */
     .button {
         background-image: linear-gradient(to top,#00F0FF ,#FF0000); /* cor de fundo */
