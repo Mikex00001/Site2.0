@@ -87,17 +87,17 @@
     }
     .banner9{
         position: absolute;
-        top: 3465px;
+        top: 660px;
         left: 0%;
         width: 100%;
-        height: 100%;
+        height: 660px;
         object-fit: cover;
       clip-path: inset(0); /* recorta a imagem para dentro da div */
     }
     .banner10{
         background-color: rgb(255, 255, 255);
         position: absolute;
-        top: 4125px;
+        top: 1320px;
         left: 0%;
         width: 100%;
         height: 340px;
@@ -105,7 +105,7 @@
     .banner11{
         background-color: #000000;
         position: absolute;
-        top: 4465px;
+        top: 1660px;
         left: 0%;
         width: 100%;
         height: 900px;
@@ -167,7 +167,7 @@
     .textDepoimento{
         color: #fff;
         position: absolute;
-        top: 2095px;
+        top: 2195px;
         left: 0%;
         width: 100%;
         height: 660px;
@@ -260,7 +260,7 @@
       .button4 {
         background-image: linear-gradient(to top right,#00F0FF ,#FF0000); /* cor de fundo */
         position: relative;
-        top: 2680px;
+        top: 640px;
         color: white; /* cor do texto */
         padding: 15px 32px; /* espaço dentro do botão */
         text-align: center; /* centralizar texto */
@@ -277,6 +277,17 @@
         border-top: 0px #fff solid; /*borda de cima*/
         box-shadow: 0 0 10px #ff0000; /*sombra*/
         font-weight: bolder;
+      }
+      .buttonBonus{
+        position: relative; 
+        bottom: 90px; 
+        left: 285px;
+        width: 90px; 
+        height:40px; 
+        color: white;
+        border: none; 
+        border-radius: 5px; 
+        background-image: linear-gradient(to top ,#000000 ,#FF0000);
       }
     .button1 :hover {
         transform: scale(1.1); /* aumentar o tamanho quando o cursor estiver sobre o botão */
@@ -349,19 +360,17 @@
     /*Imagem Bonus*/
     .imgOferta{
         position: relative;
-        top: 2830px;
+        top: 40px;
         width: 670px;
         height: 670px;
         z-index: +2;
     }
-    /*Imagem Bonus*/
-    .imgBonus{
-        position: relative;
-        top: 60px;
-        width: 470px;
-        height: 470px;
-        z-index: +2;
-    }
+   /*Imagem Bonus*/
+   .imgBonus{margin-top: 80px;
+    margin-right: 100px;
+    width: 470px;
+    height: 470px;
+}
     /*Imagem Beneficios*/
     .imgBeneficios{
         
@@ -370,6 +379,14 @@
         width: 300px;
         height: 300px;
     }
+    /*Imagem Beneficios*/
+    .imgDpm{
+        
+        position: relative;
+        top: 1550px;
+         width: 300px;
+         height: 300px;
+     }
     /* Tabela de perguntas */
     .tablePerguntas {
         width: 660px;
