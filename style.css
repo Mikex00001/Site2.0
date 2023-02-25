@@ -64,7 +64,7 @@
         height: 660px;
     }
     .banner7{
-        background-image: linear-gradient(to right bottom,#00F0FF ,#FF0000);
+        background-image: linear-gradient(to right,#00F0FF, #009da8,#000000 , #000000);
         position: absolute;
         top: 2700px;
         left: 0%;
@@ -75,7 +75,10 @@
         align-items: center;
     }
     .banner8{
-        background-color: rgb(0, 0, 0);
+        background-image: url('file:///C:/Users/Pedro/Downloads/Frame%2011Banner01.png');
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
         position: absolute;
         top: 2805px;
         left: 0%;
@@ -276,7 +279,7 @@
         box-shadow: 0 0 10px #ff0000; /*sombra*/
         font-weight: bolder;
       }
-    .button1 , .button2 , .button3 :hover {
+    .button1 :hover {
         transform: scale(1.1); /* aumentar o tamanho quando o cursor estiver sobre o botão */
       }
     /*  Código do vídeo */
@@ -345,15 +348,24 @@
         text-decoration:underline;
     }
     /*Imagem Bonus*/
-    .imgBonus{
+    .imgOferta{
         position: relative;
         top: 2830px;
         width: 670px;
         height: 670px;
         z-index: +2;
     }
+    /*Imagem Bonus*/
+    .imgBonus{
+        position: relative;
+        top: 60px;
+        width: 470px;
+        height: 470px;
+        z-index: +2;
+    }
     /*Imagem Beneficios*/
     .imgBeneficios{
+        
        position: relative;
        top: 70px;
         width: 300px;
