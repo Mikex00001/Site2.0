@@ -210,12 +210,9 @@
         font-weight: bolder;
         z-index: 1;
       }
-      
-    .button1 :hover {
-        transform: scale(1.1); /* aumentar o tamanho quando o cursor estiver sobre o botão */
-      }
+     
       .button2 {
-        background-image: linear-gradient(to top,#00F0FF ,#FF0000); /* cor de fundo */
+        background-image: linear-gradient(to top left,#00F0FF ,#FF0000); /* cor de fundo */
         position: relative;
         top: 2680px;
         color: white; /* cor do texto */
@@ -232,11 +229,53 @@
         border-right: 2px #fff solid; /*borda lado direito*/
         border-bottom: 4px #fff solid; /*borda de baixo*/
         border-top: 0px #fff solid; /*borda de cima*/
-        box-shadow: 0 0 10px #ffffff; /*sombra*/
+        box-shadow: 0 0 10px #00F0FF; /*sombra*/
         font-weight: bolder;
       }
       
-    .button2 :hover {
+      .button3 {
+        background-image: linear-gradient(to top,#00F0FF ,#FF0000); /* cor de fundo */
+        position: relative;
+        left: 340px;
+        color: white; /* cor do texto */
+        padding: 15px 32px; /* espaço dentro do botão */
+        text-align: center; /* centralizar texto */
+        text-decoration: none; /* remover sublinhado */
+        display: inline-block; /* exibir como um bloco */
+        font-size: 16px; /* tamanho do texto */
+        margin: 4px 2px; /* margem externa */
+        cursor: pointer; /* mudar o cursor para a mão */
+        transition: all 0.3s ease-in-out; /* animação de transição */
+        border-radius: 25px; /*radius da borda*/
+        border-left: 2px #fff solid; /*borda lado esquerdo*/
+        border-right: 2px #fff solid; /*borda lado direito*/
+        border-bottom: 4px #fff solid; /*borda de baixo*/
+        border-top: 0px #fff solid; /*borda de cima*/
+        box-shadow: 0 0 10px #ff0000; /*sombra*/
+        font-weight: bolder;
+      }
+      .button4 {
+        background-image: linear-gradient(to top right,#00F0FF ,#FF0000); /* cor de fundo */
+        position: relative;
+        top: 2680px;
+        color: white; /* cor do texto */
+        padding: 15px 32px; /* espaço dentro do botão */
+        text-align: center; /* centralizar texto */
+        text-decoration: none; /* remover sublinhado */
+        display: inline-block; /* exibir como um bloco */
+        font-size: 16px; /* tamanho do texto */
+        margin: 4px 2px; /* margem externa */
+        cursor: pointer; /* mudar o cursor para a mão */
+        transition: all 0.3s ease-in-out; /* animação de transição */
+        border-radius: 25px; /*radius da borda*/
+        border-left: 2px #fff solid; /*borda lado esquerdo*/
+        border-right: 2px #fff solid; /*borda lado direito*/
+        border-bottom: 4px #fff solid; /*borda de baixo*/
+        border-top: 0px #fff solid; /*borda de cima*/
+        box-shadow: 0 0 10px #ff0000; /*sombra*/
+        font-weight: bolder;
+      }
+    .button1 , .button2 , .button3 :hover {
         transform: scale(1.1); /* aumentar o tamanho quando o cursor estiver sobre o botão */
       }
     /*  Código do vídeo */
@@ -279,12 +318,45 @@
     #tdDescr{
         width:500px;
     }
+    #tableArtigo{
+        position: relative;
+        left: 35px;
+        width: 690px;
+        height: 340px;
+    }
+    #tdArtigo{
+        width: 130px;
+    }
+    #tableCopyright{
+        position: relative;
+        left: 35px;
+        width: 790px;
+        height: 340px;
+    }
+    #tdCopyright{
+        width: 330px;
+    }
+    /*Link Hover*/
+    a{
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration:underline;
+    }
+    /*Imagem Bonus*/
     .imgBonus{
         position: relative;
         top: 2830px;
         width: 670px;
         height: 670px;
         z-index: +2;
+    }
+    /*Imagem Beneficios*/
+    .imgBeneficios{
+       position: relative;
+       top: 70px;
+        width: 300px;
+        height: 300px;
     }
     /* Tabela de perguntas */
     .tablePerguntas {
