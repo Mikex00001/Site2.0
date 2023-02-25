@@ -75,7 +75,7 @@
         align-items: center;
     }
     .banner8{
-        background-image: url('file:///C:/Users/Pedro/Downloads/Frame%2011Banner01.png');
+        background-image: url('https://www.imagemhost.com.br/images/2023/02/25/Frame-11Banner01.png');
         background-size: cover;
         background-position: top center;
         background-repeat: no-repeat;
@@ -103,12 +103,12 @@
         height: 340px;
     }
     .banner11{
+        background-color: #000000;
         position: absolute;
         top: 4465px;
         left: 0%;
         width: 100%;
         height: 900px;
-        box-shadow: 0px 5px 5px #000000;
     }
     .banner12{
         background-image: url('https://www.imagemhost.com.br/images/2023/02/25/Frame-10Banner01.png');
