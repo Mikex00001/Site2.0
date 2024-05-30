@@ -4,7 +4,7 @@ Ao meu projeto, este é um site de paginas de vendas de um produto.
 
 ![ezgif com-gif-maker](https://s2.ezgif.com/tmp/ezgif-2-1bf82e4220.gif)
 # Link Para Visualização do Site:
-https://adeuscabelossecos.netlify.app
+https://loginscreen-project.netlify.app
 
 # Técnicos:
 
