@@ -2,7 +2,7 @@
 Ao meu projeto, este é um site de paginas de vendas de um produto.
 
 
-![ezgif com-gif-maker](https://github.com/Mikex00001/Site2.0/assets/124947898/03a6f015-a7b5-4cd9-b1d2-565764e3e9dd)
+![ezgif com-gif-maker](https://s2.ezgif.com/tmp/ezgif-2-1bf82e4220.gif)
 # Link Para Visualização do Site:
 https://adeuscabelossecos.netlify.app
 
@@ -13,6 +13,4 @@ https://adeuscabelossecos.netlify.app
 • JavaScript
 
 # Desenvolvimento!
-
-Este projeto foi criado e desenvolvido por mim, usando como base de inspiração de layout de vários sites. A criação deste site é com fins unicamente e exclusivamente para mostrar meus conhecimentos e habilidades em desenvolvimento web.
-  
+Eu criei e desenvolvi este projeto, inspirado nos layouts de vários sites. Este site tem o propósito único e exclusivo de exibir meus conhecimentos e habilidades em desenvolvimento web.
